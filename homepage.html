@@ -8,11 +8,20 @@
 <!-- ===== CSS ===== -->
 <style>
 
+@font-face {
+	font-family: avenir;
+	src: 
+	}
+
 html, body {
 	height: 100%;
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	}
+
+body::-webkit-scrollbar {
+	display: none;
 	}
 
 #container {
@@ -65,7 +74,6 @@ html, body {
 	}
 
 .filter {
-	border-right: 1px solid #E6E6E6;
 	color: #000000;
 	height: 100%;
 	width: 8%;
@@ -97,17 +105,24 @@ filter_button img {
 .style_bar , .location_bar {
 	display: inline-block;	
 	font-family: arial;
+	font-size: .9em;
 	}
 
 .style_bar {
-	border: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
 	height: 100%;
 	width: 46%;
 	padding: 8px;
 	}
 
 .location_bar {
-	border: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #E6E6E6;
 	height: 100%;
 	width: 46%;
 	padding: 8px;
@@ -118,7 +133,6 @@ filter_button img {
 	font-family: arial;
 	color: #000000;
 	text-decoration: none;
-	left: 100%;
 	}
 
 #calendar {
@@ -129,28 +143,29 @@ filter_button img {
 	background-color: #E6E6E6;
 	}
 
+#calendar::-webkit-scrollbar {
+	display: none;
+	}
+
 .row {
-	overflow: visible;
-	width: 99%;
+	position: relative;
+	left: .5%;
+	overflow: hidden;
+	width: 98.7%;
 	height: 200px;
-	margin: 5px;
-	border: 1px solid black;
+	margin: 8px;
+	<!-- border: 1px solid black; -->
 	}
 
 .photo_frame {
-	overflow: scroll;
 	position: relative;
 	display: inline-block;
 	margin-right: 5px;
 	background-color: #FFFFFF;
 	height: 200px;
 	width: 200px;
+	box-shadow: 1px 2px .5px #848484;
 	}
-
-
-
-
-
 
 </style>
 <!-- ===== ENDCSS ===== -->
@@ -179,6 +194,48 @@ filter_button img {
 </div>
 
 <div id="calendar">
+	<div class="row">
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+	</div>
+	<div class="row">
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+	</div>
+	<div class="row">
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+		<div class="photo_frame">
+		</div>
+	</div>
 	<div class="row">
 		<div class="photo_frame">
 		</div>
