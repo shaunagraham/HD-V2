@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AD2C21975638065444F9D4E017876F8B07020CFE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD2C21975638065444F9D4E017876F8B07020CFE" : 0,
+    "8A191099A224F111824F6211D3A3864E09E8C124" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F7654188-CD97-4538-84CD-2AF567CF2C19",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD2C21975638065444F9D4E017876F8B07020CFE" : "code-ios\/",
+    "8A191099A224F111824F6211D3A3864E09E8C124" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HairDecoded",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HairDecoded.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shaunagraham\/HD-V2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A191099A224F111824F6211D3A3864E09E8C124"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/georgeburduhos\/trugly.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD2C21975638065444F9D4E017876F8B07020CFE"
+    }
+  ]
+}
